@@ -166,7 +166,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String sql = "SELECT * FROM 'stories_table' WHERE id = "+id;
         Cursor c = null;
         c = db.rawQuery(sql,null);
-
+        c.moveToFirst();
         Story story = new Story();
         story.setId(c.getInt(0));
         story.setUrl(c.getString(1));
@@ -204,7 +204,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String sql = "SELECT * FROM 'categories_table'";
         Cursor c = null;
         c = db.rawQuery(sql,null);
-
+        c.moveToFirst();
         Category cat = new Category();
         cat.setUsername(c.getString(0));
         cat.setMeme(c.getInt(1));

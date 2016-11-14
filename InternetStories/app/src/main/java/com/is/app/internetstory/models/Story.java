@@ -11,7 +11,10 @@ public class Story {
     private int sat;
 
     public Story(){
-
+        this.id=0;
+        this.url=null;
+        this.unsat=0;
+        this.sat=0;
     }
 
     public void setId(int id) {

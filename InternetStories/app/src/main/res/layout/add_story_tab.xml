@@ -8,6 +8,7 @@
         android:layout_height="?attr/actionBarSize" />
 
     <TextView
+        android:id="@+id/addImageStory"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
@@ -17,6 +18,7 @@
         android:textSize="25dp"/>
 
     <TextView
+        android:id="@+id/addGIFStory"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
@@ -26,6 +28,7 @@
         android:textSize="25dp"/>
 
     <TextView
+        android:id="@+id/addTextStory"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
