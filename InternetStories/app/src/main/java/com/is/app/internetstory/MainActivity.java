@@ -22,8 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Stories"));
-        tabLayout.addTab(tabLayout.newTab().setText("Categories"));
+        tabLayout.addTab(tabLayout.newTab().setText("Topics"));
         tabLayout.addTab(tabLayout.newTab().setText("Add Story"));
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_account_circle_white_36dp));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);

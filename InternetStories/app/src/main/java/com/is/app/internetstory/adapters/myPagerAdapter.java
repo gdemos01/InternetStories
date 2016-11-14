@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import com.is.app.internetstory.fragments.AddStoryFragment;
 import com.is.app.internetstory.fragments.CategoriesFragment;
 import com.is.app.internetstory.fragments.StoriesFragment;
+import com.is.app.internetstory.fragments.YouFragment;
 
 /**
  * Created by Giorgos on 11/11/2016.
@@ -34,6 +35,9 @@ public class myPagerAdapter extends FragmentStatePagerAdapter {
             case 2:
                 AddStoryFragment tab3 = new AddStoryFragment();
                 return tab3;
+            case 3:
+                YouFragment youFragment = new YouFragment();
+                return youFragment;
             default:
                 return null;
         }
