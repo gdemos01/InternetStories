@@ -7,129 +7,141 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize" />
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <Space
+        <LinearLayout
             android:layout_width="0px"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-        <CheckBox
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Meme"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Funny"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="News"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Cheerful"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Romantic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="0px"
             android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:textSize="30dp"
-            android:text="Meme"/>
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-        <Space
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Meme"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Funny"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="News"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Cheerful"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Romantic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="0px"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Meme"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Funny"/>
 
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="News"/>
 
-        <CheckBox
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:textSize="30dp"
-            android:text="Funny"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Cheerful"/>
 
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="18dp"
+                android:text="Romantic"/>
 
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
-        android:orientation="horizontal">
 
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-        <CheckBox
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:textSize="30dp"
-            android:text="News"/>
-
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-        <CheckBox
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:textSize="30dp"
-            android:text="Cheerful"/>
-
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-        <CheckBox
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:textSize="30dp"
-            android:text="Romantic"/>
-
-        <Space
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
 
     </LinearLayout>
 
